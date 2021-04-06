@@ -18,17 +18,17 @@ makeup-api/coverage
 makeup-api/.nyc_output
 
 # IDEs and editors
-makeup-api/.idea
-makeup-api/.project
-makeup-api/.classpath
-makeup-api/.c9/
-makeup-api/*.launch
-makeup-api/.settings/
-makeup-api/*.sublime-workspace
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
 # IDE - VSCode
-makeup-api/.vscode/*
-makeup-api/!.vscode/settings.json
-makeup-api/!.vscode/tasks.json
-makeup-api/!.vscode/launch.json
-makeup-api/!.vscode/extensions.json
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
