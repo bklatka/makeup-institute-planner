@@ -1,3 +1,5 @@
+import { Role } from 'src/Const/roles';
+
 export interface IUser {
   id: string;
   username: string;
@@ -5,4 +7,5 @@ export interface IUser {
   firstName: string;
   lastName: string;
   email: string;
+  roles: Role[];
 }

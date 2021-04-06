@@ -3,6 +3,10 @@ import { mockUsers } from 'src/Users/users.mock';
 
 @Injectable()
 export class UsersService {
+  async findById(id: string) {
+    return mockUsers.find((user) => user.id === id);
+  }
+
   async findOne(username: string) {
     return mockUsers.find((user) => user.username === username);
   }
