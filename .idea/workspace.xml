@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17301168-045c-4c85-940e-1bc289d8134a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/makeup-api/src/Auth/auth.constants.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/makeup-api/src/Auth/jwt.strategy.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/makeup-api/src/Guards/JwtAuthGuard.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/makeup-api/src/Guards/LocalAuthGuard.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/Auth/auth.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Auth/auth.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/Auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Auth/auth.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/Event/Event.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Event/Event.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/Users/users.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Users/users.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/app.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/docs/MakeupInstitutePlanner.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/docs/MakeupInstitutePlanner.postman_collection.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +68,8 @@
       <recent name="$PROJECT_DIR$/makeup-api/src/Models/Event" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/makeup-api/src/event" />
       <recent name="$PROJECT_DIR$/makeup-api/docs" />
+      <recent name="$PROJECT_DIR$/makeup-api/src/event" />
       <recent name="$PROJECT_DIR$/makeup-api/src/Models/Event" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -92,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617729936474</updated>
-      <workItem from="1617729938201" duration="8841000" />
+      <workItem from="1617729938201" duration="8888000" />
     </task>
     <task id="LOCAL-00001" summary="fix: gitignore">
       <created>1617730946453</created>
@@ -136,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617737713911</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: implement jwt strategy and protect event routes">
+      <created>1617739002246</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617739002247</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +148,8 @@
     <MESSAGE value="feat: add validation with pipe" />
     <MESSAGE value="feat: add role guard (not connected)" />
     <MESSAGE value="feat: implement local passport strategy" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: implement local passport strategy" />
+    <MESSAGE value="feat: implement jwt strategy and protect event routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implement jwt strategy and protect event routes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
