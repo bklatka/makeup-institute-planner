@@ -1,20 +1,24 @@
 import { Body, Controller, Delete, Get, Param, Post, Put } from "@nestjs/common";
-import { mockEvent, mockEventList } from "src/mocks/Event.mocks";
+import { mockEvent, mockEventList } from "src/Mocks/Event.mocks";
 import { IEventCreateBody } from "src/Models/Event/Event.dto";
 import { IEvent, IEventList } from "src/Models/Event/Event.model";
+import { EventService } from "src/Services/Event.service";
 
 
 @Controller('events')
 export class EventController {
 
+  constructor(private eventService: EventService) {
+  }
+
   @Get()
   findAll(): IEventList[] {
-    return [mockEventList];
+    return this.eventService.findAll();
   }
 
   @Post()
   create(@Body() body: IEventCreateBody): IEvent {
-    return mockEvent;
+    return this.eventService.create(body);
   }
 
   @Put(':id')
