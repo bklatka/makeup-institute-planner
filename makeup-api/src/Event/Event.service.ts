@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { IEventCreateBody } from 'src/Models/Event/Event.dto';
-import { IEvent, IEventList } from 'src/Models/Event/Event.model';
+import { IEventCreateBody } from 'src/Event/Event.dto';
+import { IEvent, IEventList } from 'src/Event/Event.model';
 
 const DEFAULT_ARTISTS_PER_MODEL = 1;
 

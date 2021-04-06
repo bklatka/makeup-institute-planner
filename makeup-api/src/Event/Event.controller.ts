@@ -11,12 +11,12 @@ import {
 import { Paths } from 'src/Const/paths';
 import { Role } from 'src/Const/roles';
 import { OnlyForRoles } from 'src/Decorators/OnlyForRoles';
-import { mockEvent } from 'src/Mocks/Event.mocks';
-import { IEventCreateBody } from 'src/Models/Event/Event.dto';
-import { IEvent, IEventList } from 'src/Models/Event/Event.model';
+import { mockEvent } from 'src/Event/Event.mocks';
+import { IEventCreateBody } from 'src/Event/Event.dto';
+import { IEvent, IEventList } from 'src/Event/Event.model';
 import { JoiValidationPipe } from 'src/Pipes/JoiValidationPipe';
-import { EventService } from 'src/Services/Event.service';
-import { EventCreateBodyValidation } from 'src/Validations/Event.validations';
+import { EventService } from 'src/Event/Event.service';
+import { EventCreateBodyValidation } from 'src/Event/Event.validations';
 
 @Controller(Paths.events)
 export class EventController {
