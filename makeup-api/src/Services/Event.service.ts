@@ -1,20 +1,21 @@
-import { Injectable } from "@nestjs/common";
-import { IEventCreateBody } from "src/Models/Event/Event.dto";
-import { IEvent, IEventList } from "src/Models/Event/Event.model";
-
+import { Injectable } from '@nestjs/common';
+import { IEventCreateBody } from 'src/Models/Event/Event.dto';
+import { IEvent, IEventList } from 'src/Models/Event/Event.model';
 
 @Injectable()
 export class EventService {
   private readonly events: IEvent[] = [];
 
   create(event: IEventCreateBody) {
-    const newEvent: IEvent = { id: this.events.length.toString(), ...event }
+    const newEvent: IEvent = {
+      id: this.events.length.toString(),
+      numOfArtistsPerModel: 1,
+      ...event,
+    };
     this.events.push(newEvent);
 
     return newEvent;
   }
-
-
 
   findAll(): IEventList[] {
     return this.events.map(this.mapEventDetailsToList);
@@ -27,6 +28,6 @@ export class EventService {
       dateTo: event.dateTo,
       title: event.title,
       numOfArtists: event.numOfArtists,
-    }
+    };
   }
 }

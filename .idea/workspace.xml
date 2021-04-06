@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17301168-045c-4c85-940e-1bc289d8134a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/makeup-api/src/Modules/Event.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/makeup-api/src/Services/Event.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/makeup-api/src/Const/paths.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/makeup-api/src/Const/validation.const.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/makeup-api/src/Pipes/JoiValidationPipe.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/makeup-api/src/Validations/Event.validations.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/makeup-api/src/Controllers/Event.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Controllers/Event.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/Mocks/Event.mocks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Mocks/Event.mocks.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/Models/Event/Event.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Models/Event/Event.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/Models/Event/Event.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Models/Event/Event.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/Modules/Event.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Modules/Event.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/Services/Event.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Services/Event.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/makeup-api/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/mocks/Event.mocks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Mocks/Event.mocks.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +32,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -41,14 +58,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/makeup-api/src/Models/Event" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/makeup-api/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -69,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617729936474</updated>
-      <workItem from="1617729938201" duration="2676000" />
+      <workItem from="1617729938201" duration="5531000" />
     </task>
     <task id="LOCAL-00001" summary="fix: gitignore">
       <created>1617730946453</created>
@@ -85,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617732103827</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: event module and service">
+      <created>1617732989214</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617732989214</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +124,11 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="fix: gitignore" />
     <MESSAGE value="feat: add event controller draft" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add event controller draft" />
+    <MESSAGE value="feat: event module and service" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: event module and service" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

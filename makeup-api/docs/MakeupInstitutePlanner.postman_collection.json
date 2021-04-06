@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "818781ae-ca0e-4253-be63-4826ef86ba88",
+		"name": "MakeupInstitutePlanner",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get events",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/events",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create event",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Test event\",\n    \"description\": \"Some description\",\n    \"dateFrom\": \"2021-04-06T19:59:24.531Z\",\n    \"dateTo\": \"2021-04-06T20:59:24.531Z\",\n    \"numOfArtists\": 5\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/events",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"events"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

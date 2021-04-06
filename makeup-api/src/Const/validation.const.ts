@@ -1,0 +1,2 @@
+export const MAX_STRING_LENGTH = 100;
+export const MAX_DESCRIPTION_LENGTH = 2000;
