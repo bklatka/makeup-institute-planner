@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17301168-045c-4c85-940e-1bc289d8134a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/makeup-api/src/Const/paths.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/makeup-api/src/Const/validation.const.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/makeup-api/src/Pipes/JoiValidationPipe.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/makeup-api/src/Validations/Event.validations.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/makeup-api/src/Const/roles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/makeup-api/src/Decorators/OnlyForRoles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/makeup-api/src/Guards/RoleGuard.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/makeup-api/src/Controllers/Event.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Controllers/Event.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/Mocks/Event.mocks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Mocks/Event.mocks.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/Models/Event/Event.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Models/Event/Event.dto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/Models/Event/Event.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Models/Event/Event.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/Modules/Event.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Modules/Event.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/makeup-api/src/Services/Event.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Services/Event.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +69,7 @@
       <recent name="$PROJECT_DIR$/makeup-api/src/Models/Event" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/makeup-api/docs" />
       <recent name="$PROJECT_DIR$/makeup-api/src/Models/Event" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -90,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617729936474</updated>
-      <workItem from="1617729938201" duration="5531000" />
+      <workItem from="1617729938201" duration="6160000" />
     </task>
     <task id="LOCAL-00001" summary="fix: gitignore">
       <created>1617730946453</created>
@@ -113,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617732989214</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: add validation with pipe">
+      <created>1617735701449</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617735701449</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +124,8 @@
     <MESSAGE value="fix: gitignore" />
     <MESSAGE value="feat: add event controller draft" />
     <MESSAGE value="feat: event module and service" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: event module and service" />
+    <MESSAGE value="feat: add validation with pipe" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add validation with pipe" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

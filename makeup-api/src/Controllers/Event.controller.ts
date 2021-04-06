@@ -9,6 +9,8 @@ import {
   UsePipes,
 } from '@nestjs/common';
 import { Paths } from 'src/Const/paths';
+import { Role } from 'src/Const/roles';
+import { OnlyForRoles } from 'src/Decorators/OnlyForRoles';
 import { mockEvent } from 'src/Mocks/Event.mocks';
 import { IEventCreateBody } from 'src/Models/Event/Event.dto';
 import { IEvent, IEventList } from 'src/Models/Event/Event.model';
@@ -26,17 +28,20 @@ export class EventController {
   }
 
   @Post()
+  @OnlyForRoles(Role.ADMIN)
   @UsePipes(new JoiValidationPipe(EventCreateBodyValidation))
   create(@Body() body: IEventCreateBody): IEvent {
     return this.eventService.create(body);
   }
 
   @Put(':id')
+  @OnlyForRoles(Role.ADMIN)
   update(@Param() id: string, @Body() body: Partial<IEventCreateBody>): IEvent {
     return mockEvent;
   }
 
   @Delete(':id')
+  @OnlyForRoles(Role.ADMIN)
   remove(@Param() id: string): boolean {
     return true;
   }

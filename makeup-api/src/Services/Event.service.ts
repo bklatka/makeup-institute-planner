@@ -2,6 +2,8 @@ import { Injectable } from '@nestjs/common';
 import { IEventCreateBody } from 'src/Models/Event/Event.dto';
 import { IEvent, IEventList } from 'src/Models/Event/Event.model';
 
+const DEFAULT_ARTISTS_PER_MODEL = 1;
+
 @Injectable()
 export class EventService {
   private readonly events: IEvent[] = [];
@@ -9,7 +11,7 @@ export class EventService {
   create(event: IEventCreateBody) {
     const newEvent: IEvent = {
       id: this.events.length.toString(),
-      numOfArtistsPerModel: 1,
+      numOfArtistsPerModel: DEFAULT_ARTISTS_PER_MODEL,
       ...event,
     };
     this.events.push(newEvent);
