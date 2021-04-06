@@ -1,34 +1,34 @@
 # compiled output
-/dist
-/node_modules
+makeup-api/dist
+makeup-api/node_modules
 
 # Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
+makeup-api/logs
+makeup-api/*.log
+makeup-api/npm-debug.log*
+makeup-api/yarn-debug.log*
+makeup-api/yarn-error.log*
+makeup-api/lerna-debug.log*
 
 # OS
 .DS_Store
 
 # Tests
-/coverage
-/.nyc_output
+makeup-api/coverage
+makeup-api/.nyc_output
 
 # IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+makeup-api/.idea
+makeup-api/.project
+makeup-api/.classpath
+makeup-api/.c9/
+makeup-api/*.launch
+makeup-api/.settings/
+makeup-api/*.sublime-workspace
 
 # IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+makeup-api/.vscode/*
+makeup-api/!.vscode/settings.json
+makeup-api/!.vscode/tasks.json
+makeup-api/!.vscode/launch.json
+makeup-api/!.vscode/extensions.json
