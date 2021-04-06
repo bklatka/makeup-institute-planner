@@ -1,6 +1,4 @@
-import { Controller, Post, UseGuards, Request } from '@nestjs/common';
-import { AuthGuard } from '@nestjs/passport';
-import { Paths } from 'src/Const/paths';
+import { Controller } from '@nestjs/common';
 
 @Controller()
 export class UsersController {}

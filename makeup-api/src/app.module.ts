@@ -9,5 +9,6 @@ import { UsersModule } from './Users/users.module';
   imports: [EventModule, AuthModule, UsersModule],
   controllers: [AppController],
   providers: [AppService],
+  exports: [AuthModule],
 })
 export class AppModule {}
