@@ -1,4 +1,4 @@
-import { IEvent, IEventList } from 'src/Event/Event.model';
+import { IEvent, IEventList } from "src/Modules/Event/Event.type";
 
 export const mockEvent: IEvent = {
   id: '1',

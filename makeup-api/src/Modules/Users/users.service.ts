@@ -1,5 +1,5 @@
-import { Injectable } from '@nestjs/common';
-import { mockUsers } from 'src/Users/users.mock';
+import { Injectable } from "@nestjs/common";
+import { mockUsers } from "src/Modules/Users/users.mock";
 
 @Injectable()
 export class UsersService {

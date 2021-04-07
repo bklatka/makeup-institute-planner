@@ -1,8 +1,5 @@
-import * as Joi from 'joi';
-import {
-  MAX_DESCRIPTION_LENGTH,
-  MAX_STRING_LENGTH,
-} from 'src/Const/validation.const';
+import * as Joi from "joi";
+import { MAX_DESCRIPTION_LENGTH, MAX_STRING_LENGTH } from "src/Const/validation.const";
 
 export const EventCreateBodyValidation = Joi.object({
   title: Joi.string().required().max(MAX_STRING_LENGTH),

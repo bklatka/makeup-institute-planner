@@ -1,5 +1,5 @@
-import { Role } from 'src/Const/roles';
-import { IUser } from 'src/Users/users.model';
+import { Role } from "src/Const/roles";
+import { IUser } from "src/Modules/Users/users.type";
 
 export const mockUsers: IUser[] = [
   {
