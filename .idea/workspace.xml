@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="17301168-045c-4c85-940e-1bc289d8134a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/Auth/jwt.strategy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Auth/jwt.strategy.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/Const/paths.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Const/paths.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/Event/Event.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Event/Event.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/makeup-api/src/Guards/RoleGuard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Guards/RoleGuard.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/Users/users.mock.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Users/users.mock.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/Users/users.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Users/users.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/Users/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Users/users.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/app.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +85,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617729936474</updated>
-      <workItem from="1617729938201" duration="9574000" />
+      <workItem from="1617729938201" duration="9792000" />
+      <workItem from="1617778131985" duration="419000" />
+      <workItem from="1617818660733" duration="1439000" />
     </task>
     <task id="LOCAL-00001" summary="fix: gitignore">
       <created>1617730946453</created>
@@ -147,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617739043647</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: introduce roles to user model">
+      <created>1617739738004</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1617739738004</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +169,8 @@
     <MESSAGE value="feat: implement local passport strategy" />
     <MESSAGE value="feat: implement jwt strategy and protect event routes" />
     <MESSAGE value="docs: update postman collection" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs: update postman collection" />
+    <MESSAGE value="feat: introduce roles to user model" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: introduce roles to user model" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
