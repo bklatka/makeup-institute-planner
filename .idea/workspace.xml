@@ -5,17 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17301168-045c-4c85-940e-1bc289d8134a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/makeup-api/src/Config/database.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/docker-compose.development.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/makeup-api/src/Modules/Users/users.entity.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/makeup-api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/Auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Auth/auth.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/Auth/jwt.strategy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Auth/jwt.strategy.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/Event/Event.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Event/Event.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/Event/Event.mocks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Event/Event.mocks.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/Event/Event.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Event/Event.type.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/Event/Event.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Event/Event.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/Users/users.mock.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Users/users.mock.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makeup-api/src/Users/users.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Users/users.type.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/Config/database.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Config/database.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/Modules/Auth/auth.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Modules/Auth/auth.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/Modules/Auth/auth.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Modules/Auth/auth.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/Modules/Auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Modules/Auth/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/Modules/Auth/jwt.strategy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Modules/Auth/jwt.strategy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/Modules/Auth/local.strategy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Modules/Auth/local.strategy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/Modules/Event/Event.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Modules/Event/Event.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/Modules/Event/Event.mocks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Modules/Event/Event.mocks.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/Modules/Event/Event.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Modules/Event/Event.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/Modules/Event/Event.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Modules/Event/Event.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/Modules/Event/Event.validations.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Modules/Event/Event.validations.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/Modules/Users/users.controller.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Modules/Users/users.controller.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/Modules/Users/users.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Modules/Users/users.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/Modules/Users/users.mock.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Modules/Users/users.mock.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/Modules/Users/users.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Modules/Users/users.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/Modules/Users/users.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Modules/Users/users.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/Modules/Users/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/Modules/Users/users.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makeup-api/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/app.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/makeup-api/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/src/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/makeup-api/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/makeup-api/yarn.lock" afterDir="false" />
     </list>
@@ -80,10 +92,11 @@
       <recent name="$PROJECT_DIR$/makeup-api/src/Models/Event" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/makeup-api/src" />
+      <recent name="$PROJECT_DIR$/makeup-api/src/Modules" />
+      <recent name="$PROJECT_DIR$/makeup-api/src/Helpers" />
       <recent name="$PROJECT_DIR$/makeup-api/docs" />
       <recent name="$PROJECT_DIR$/makeup-api/src/event" />
-      <recent name="$PROJECT_DIR$/makeup-api/src/Models/Event" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -96,7 +109,9 @@
       <updated>1617729936474</updated>
       <workItem from="1617729938201" duration="9792000" />
       <workItem from="1617778131985" duration="419000" />
-      <workItem from="1617818660733" duration="2250000" />
+      <workItem from="1617818660733" duration="3639000" />
+      <workItem from="1624213784098" duration="1744000" />
+      <workItem from="1624271322965" duration="565000" />
     </task>
     <task id="LOCAL-00001" summary="fix: gitignore">
       <created>1617730946453</created>
@@ -168,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617820193961</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="refactor: move files around, add typeorm package and module">
+      <created>1617821124365</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1617821124365</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +209,9 @@
     <MESSAGE value="docs: update postman collection" />
     <MESSAGE value="feat: introduce roles to user model" />
     <MESSAGE value="fix: roles guard to guard role dependant urls" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: roles guard to guard role dependant urls" />
+    <MESSAGE value="refactor: move files around, add typeorm package and module" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: move files around, add typeorm package and module" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

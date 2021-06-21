@@ -2,8 +2,8 @@ import { Injectable } from "@nestjs/common";
 import { PassportStrategy } from "@nestjs/passport";
 import { ExtractJwt, Strategy } from "passport-jwt";
 import { JWT_CONSTANTS } from "src/Modules/Auth/auth.constants";
+import { UserEntity } from "src/Modules/Users/users.entity";
 import { UsersService } from "src/Modules/Users/users.service";
-import { IUser } from "src/Modules/Users/users.type";
 
 @Injectable()
 export class JwtStrategy extends PassportStrategy(Strategy) {
@@ -17,7 +17,7 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
 
   // passport injects decoded access token as a param
   async validate(payload: { sub: string; username: string }) {
-    const user: IUser = await this.usersService.findById(payload.sub);
+    const user: UserEntity = await this.usersService.findById(payload.sub);
     return user;
   }
 }

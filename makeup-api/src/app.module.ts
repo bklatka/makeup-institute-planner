@@ -13,8 +13,8 @@ import { UsersModule } from "./Modules/Users/users.module";
     AuthModule,
     UsersModule,
     TypeOrmModule.forRoot({
-      type: 'mysql',
-      entities: [],
+      type: 'postgres',
+      autoLoadEntities: true,
       synchronize: true, // set to false on production env
       host: DATABASE_CONNECTION.host,
       port: DATABASE_CONNECTION.port,
